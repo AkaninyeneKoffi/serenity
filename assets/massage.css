@@ -65,6 +65,27 @@ input, textarea { padding: 12px; border: 1px solid #ccc; border-radius: 8px; wid
 .cta-banner { background: #2c786c; color: white; text-align: center; padding: 60px 20px; }
 .cta-banner h2 { font-size: 2rem; margin-bottom: 10px; }
 .cta-banner p { margin-bottom: 20px; font-size: 1.1rem; }
+.cta-banner a.btn { background: #f4c542;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block; }
+.cta-banner a.btn:hover { background: #e1ecd7; }
+
+.cta-banner a.premium-btn {
+  background: #0a0a0a; /* red shade */
+  color: white;
+  box-shadow: 0 4px 10px rgba(248, 247, 247, 0.6);
+}
+
+.cta-banner a.premium-btn:hover {
+  background: #d62828;
+  box-shadow: 0 6px 15px rgba(214, 40, 40, 0.7);
+}
+
+
 
 /* Footer */
 footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
